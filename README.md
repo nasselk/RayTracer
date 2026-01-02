@@ -2,9 +2,11 @@
 
 A simple CPU-based ray tracer implementing the Blinn-Phong illumination model with support for reflections and refractions using Schlick's approximation for Fresnel effects.
 
-## ⚠️ Warning
-
-This is an **experimental project for learning purposes only**. The rendering is quite slow as it runs entirely on the CPU, processing each pixel sequentially. For a more complete and performant implementation, I'm currently developing a **Rust + WGPU based path tracer** that leverages GPU acceleration.
+> **⚠️ Warning: Experimental Learning Project**  
+> This is an **educational project for learning purposes only**. Please note:
+> - **CPU-based rendering**: Extremely slow performance as it processes each pixel sequentially on the CPU
+> - **Not production-ready**: This is purely for understanding ray tracing fundamentals
+> - **Limited scope**: For a more complete and performant implementation, I'm currently developing a **Rust + WGPU based path tracer** with GPU acceleration
 
 ## Table of Contents
 
